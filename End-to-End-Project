@@ -1,1 +1,16 @@
 # Download Terraform on Windows Machine and Configure PATH in Env Variables
+
+download 64bit and set path
+
+open cmd and check terraform version 
+
+command to check terraform version 
+
+$terraform --version
+
+output :-
+Terraform v1.8.2
+on windows_amd64
+
+Your version of Terraform is out of date! The latest version
+is 1.9.1. You can update by downloading from https://www.terraform.io/downloads.html
