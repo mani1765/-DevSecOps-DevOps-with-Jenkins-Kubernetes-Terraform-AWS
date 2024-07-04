@@ -45,6 +45,52 @@ Done
 ---------------------------------------------------------------------------------------------------------
 Download "Visual Studio Code" for windows and install it (Simple)
 ---------------------------------------------------------------------------------------------------------
+Install Git Bash for windows (Simple)
+---------------------------------------------------------------------------------------------------------
+
+Clone this repo on your local system https://github.com/mani1765/terraform-ec2-jenkins-aws-k8s-infra-creation.git
+
+In C: or D: Create a folder and open in folder in Git Bash (Right click and git bash here option)
+
+$ git clone https://github.com/mani1765/terraform-ec2-jenkins-aws-k8s-infra-creation.git
+
+it will cloned into your local system and verify it.
+------------------------------------------------------------------------------------------------------------
+
+Open Visual Studio Code on your local system
+
+Open the folder which we clone in the above and verify all files are there main.tf,.....etc
+
+---------------------------------------------------------------------------------------------------------
+
+Go through the terraform files and understand about each block
+Understand install_jenkins.sh file 
+
+-----------------------------------------------------------------------------------------------------------
+Understand tf var file and create a aws key pair
+-----------------------------------------------------------------------------------------------------------
+
+Running main.tf and create aws infra 
+
+commands :- 
+terraform init
+terraform plan -var-file="vars/dev-west-2.tfvars"
+terraform apply -var-file="vars/dev-west-2.tfvars"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
