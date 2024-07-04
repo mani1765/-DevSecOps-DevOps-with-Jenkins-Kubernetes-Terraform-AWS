@@ -14,3 +14,23 @@ on windows_amd64
 
 Your version of Terraform is out of date! The latest version
 is 1.9.1. You can update by downloading from https://www.terraform.io/downloads.html
+
+or 
+
+$terraform -h
+
+output :- 
+Displays terraform commands 
+
+-------------------------------------------------------------------------------------------------
+Create AWS Free Trail Account and create a admin user for CLI with AdminstratorAcsess using IAM Service
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
