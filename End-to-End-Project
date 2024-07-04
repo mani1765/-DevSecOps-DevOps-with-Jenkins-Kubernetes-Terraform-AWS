@@ -37,8 +37,13 @@ AWS Secret Access Key [****************Mwch]: KGX48HJY078ghjlkh8tDwaB9TwGj4gvb3A
 Default region name [ap-south-1]: ap-south-1
 Default output format [None]: (just enter on your keyboard)
 
-Done
+$aws sts get-caller-identity
 
+The above command gives user deatils
+
+Done
+---------------------------------------------------------------------------------------------------------
+Download "Visual Studio Code" for windows and install it (Simple)
 ---------------------------------------------------------------------------------------------------------
 
 
