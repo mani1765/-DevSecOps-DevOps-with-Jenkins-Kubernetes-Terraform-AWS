@@ -1,4 +1,5 @@
-# Download Terraform on Windows Machine and Configure PATH in Env Variables
+------------------------------------------------------------------------------------------------
+Download Terraform on Windows Machine and Configure PATH in Env Variables
 
 download 64bit and set path
 
@@ -26,7 +27,19 @@ Displays terraform commands
 Create AWS Free Trail Account and create a admin user for CLI with AdminstratorAcsess using IAM Service
 -------------------------------------------------------------------------------------------------
 
+Download and install "Aws Cli" on your windows machine
 
+Open "Command Prompt" (CMD) on your windows machine and type the following command for configuring aws
+
+$aws configure
+AWS Access Key ID [****************YZEC]: AKIYUTRESDGJKFHGV2E5K
+AWS Secret Access Key [****************Mwch]: KGX48HJY078ghjlkh8tDwaB9TwGj4gvb3Aejgdghh
+Default region name [ap-south-1]: ap-south-1
+Default output format [None]: (just enter on your keyboard)
+
+Done
+
+---------------------------------------------------------------------------------------------------------
 
 
 
