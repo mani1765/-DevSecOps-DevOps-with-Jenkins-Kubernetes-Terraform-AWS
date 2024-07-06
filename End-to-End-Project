@@ -79,8 +79,19 @@ terraform apply -var-file="vars/dev-west-2.tfvars"
 
 Once completed , go to aws and verify ec2 instance is created or not
 
-
-
+-------------------------------------------------------------------------------------------------
+Login to jenkins and set username and password 
+https://ip:8081 or defined port
+Install required plugins and set up it.
+--------------------------------------------------------------------------------------------------
+Configure maven on jenkins (tools > maven)
+name : maven2
+Maven_HOME : /opt/apache-maven-3.9.8
+Save
+--------------------------------------------------------------------------------------------------
+Install docker pipeline plugin , kubernetes CLI and install other required plugins
+Restrat jenkins after installation success
+--------------------------------------------------------------------------------------------------
 
 
 
