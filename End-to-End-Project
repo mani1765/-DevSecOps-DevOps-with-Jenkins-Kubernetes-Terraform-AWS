@@ -92,6 +92,34 @@ Save
 Install docker pipeline plugin , kubernetes CLI and install other required plugins
 Restrat jenkins after installation success
 --------------------------------------------------------------------------------------------------
+What is SonarCloud?
+SonarCloud is a cloud-based code quality and security service. It provides continuous inspection of code quality to detect bugs, 
+vulnerabilities, and code smells in projects. It supports various programming languages and integrates seamlessly with CI/CD pipelines.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Create account in sonar cloud (https://sonarcloud.io/)
+-----------------------------------------------------------------------------------------------------------------
+write jenkins pipeline code for analyzing the code :-
+
+pipeline {
+  agent any
+  tools { 
+        maven 'Maven_3_5_2'  
+    }
+   stages{
+    stage('CompileandRunSonarAnalysis') {
+            steps {	
+		sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=asgbuggywebapp -Dsonar.organization=asgbuggywebapp -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=9325586a8f1d1adf470b908a46156f5844'
+			}
+        } 
+  }
+}
+
+Create a new organization project and define key , organization name and generate a token then update in the above pipeline
+
+Create a pipeline in jenkins and select jenkins file from SCM 
+provide github URL where our jenkins file and project is there
+make sure correct branch(main or master)
+save project and built it.
 
 
 
