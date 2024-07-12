@@ -120,11 +120,44 @@ Create a pipeline in jenkins and select jenkins file from SCM
 provide github URL where our jenkins file and project is there
 make sure correct branch(main or master)
 save project and built it.
+---------------------------------------------------------------------------------------------------------------
+What is Snyk Tool and its Benefits 
 
+Snyk is a security tool used for identifying, fixing, and preventing vulnerabilities in open source dependencies and containerized applications. Its benefits include:
 
+1. **Vulnerability Detection:** Snyk scans your codebase and dependencies to identify security vulnerabilities, including those in indirect dependencies.
 
+2. **Continuous Monitoring:** It provides ongoing monitoring of your dependencies, alerting you to new vulnerabilities as they are discovered.
 
+3. **Integration:** Snyk integrates well with various CI/CD pipelines, IDEs, and source code management tools, allowing for seamless security checks throughout the development lifecycle.
 
+4. **Fix Suggestions:** It not only identifies vulnerabilities but also suggests fixes or patches, often with actionable advice on how to implement them.
+
+5. **Developer-Friendly:** Snyk is designed to be developer-friendly, providing easy-to-understand reports and actionable insights without requiring deep security expertise.
+
+6. **Container Security:** It extends its capabilities to scan container images for vulnerabilities, ensuring that applications deployed in containers are secure.
+
+Overall, Snyk helps developers and organizations proactively manage and mitigate security risks associated with third-party dependencies and containerized applications.
+------------------------------------------------------------------------------------------------------------------------------------
+
+What SCA in DevSecOps ?
+In DevSecOps, SCA stands for Software Composition Analysis. It's a security practice that focuses on identifying and managing risks associated with third-party and open source components used in software development. Here's a brief overview:
+
+1. **Identification:** SCA tools identify all third-party components and libraries used in an application, including their versions.
+
+2. **Vulnerability Detection:** They scan these components for known security vulnerabilities and provide reports on any risks found.
+
+3. **License Compliance:** SCA tools also check for license compliance issues to ensure that organizations are using open source software in accordance with legal requirements.
+
+4. **Integration:** SCA is integrated into the DevOps pipeline to automate checks during build and deployment processes, ensuring continuous monitoring and proactive risk management.
+
+Overall, SCA in DevSecOps helps teams ensure the security, compliance, and integrity of their software by addressing risks associated with third-party software components early in the development lifecycle.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Hands-on :-
+Update pom.xml file and jenkins file to run sac on easybuggy application
+Create new pipeline in jenkins for SCA
+build and very issue in console output of jenkins pipeline
 
 
 
